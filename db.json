@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rubik's cube",
+      "description": "cube1",
+      "imageUrl": "https://static5.depositphotos.com/1033600/501/i/950/depositphotos_5016489-stock-photo-rubiks-cube.jpg",
+      "price": 299
+    },
+    {
+      "id": 2,
+      "name": "Rubik's cube",
+      "description": "cube 2",
+      "imageUrl": "https://static5.depositphotos.com/1033600/501/i/950/depositphotos_5016489-stock-photo-rubiks-cube.jpg",
+      "price": 299
+    },
+    {
+      "id": 1,
+      "name": "Rubik's cube",
+      "description": "cube 3",
+      "imageUrl": "https://static5.depositphotos.com/1033600/501/i/950/depositphotos_5016489-stock-photo-rubiks-cube.jpg",
+      "price": 299
+    },
+    {
+      "id": 1,
+      "name": "Rubik's cube",
+      "description": "cube 4",
+      "imageUrl": "https://static5.depositphotos.com/1033600/501/i/950/depositphotos_5016489-stock-photo-rubiks-cube.jpg",
+      "price": 299
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
