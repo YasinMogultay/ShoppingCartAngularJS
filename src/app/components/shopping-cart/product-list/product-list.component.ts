@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+//Dependency injection
+import{ProductService} from "src/app/services/product.service";
+import {Product} from "../../../models/product";
 
 @Component({
   selector: 'app-product-list',
@@ -6,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
+  productList: Product[] = []
 
-  constructor() { }
+  //dependency injection
+  constructor(private  productService: ProductService) { }
 
   ngOnInit(): void {
+    this.productList = this.productService.getProducts();
   }
 
 }
